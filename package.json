@@ -9,6 +9,11 @@
   "scripts": {
     "test": "tape test/test.js"
   },
+  "author": {
+    "name": "MapBox",
+    "url": "http://mapbox.com/",
+    "email": "info@mapbox.com"
+  },
   "repository": {
     "type": "git",
     "url": "git@github.com:mapbox/safer-stringify.git"
