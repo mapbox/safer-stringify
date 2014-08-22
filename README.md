@@ -11,8 +11,8 @@ Same arguments as [`JSON.stringify`](https://developer.mozilla.org/en-US/docs/We
 var saferstringify = require('safer-stringify');
 
 var obj = {};
-obj.github = 'http://www.github.com/mapbox/saferstringify'
-obj.escape = '\U2028 and "\U2029"';
+obj.github = 'http://www.github.com/mapbox/saferstringify';
+obj.escape = 'ro cks'; // has hidden \u2028 literal between `ro` and `cks`
 obj.script = '<script>wut("lol")</script>';
 
 saferstringify(obj, null, 2);
@@ -23,8 +23,8 @@ Output:
 ```javascript
 {
   "github": "http:\/\/www.github.com\/mapbox\/saferstringify",
-  "escape": "U2028 and \"U2029\"",
-  "script": "<script>alert(\"xss\")<\/script>"
+  "escape": "ro\u2028cks",
+  "script": "<script>wut(\"lol\")<\/script>"
 }
 ```
 ##Reasoning
