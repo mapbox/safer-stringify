@@ -1,0 +1,21 @@
+{
+  "name": "safer-stringify",
+  "version": "0.0.1",
+  "description": "A stringify template helper for outputting JSON with escaped forward slashes and line terminators",
+  "main": "index.js",
+  "engines": {
+    "node": "~0.10.x"
+  },
+  "scripts": {
+    "test": "mocha -R spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:mapbox/safer-stringify.git"
+  },
+  "dependencies": {
+  },
+  "devDependencies":{
+    "mocha": "1.x"
+  }
+}
