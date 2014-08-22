@@ -4,6 +4,8 @@ Like JSON.stringify, but escapes forward slashes and line terminators.
 
 [![Build Status](https://travis-ci.org/mapbox/safer-stringify.svg?branch=master)](https://travis-ci.org/mapbox/safer-stringify)
 
+[![NPM](https://nodei.co/npm/safer-stringify.png)](https://nodei.co/npm/safer-stringify/)
+
 ##Usage
 Same arguments as [`JSON.stringify`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/stringify): 
 
