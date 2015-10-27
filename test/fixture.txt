@@ -1,1 +1,1 @@
-{'github': 'http://www.github.com/mapbox/saferstringify', 'escape': 'amanaplan a canalpanama', 'script': '<script>wut("lol")</script>' }
+{'github': 'http://www.github.com/mapbox/saferstringify', 'escape': 'a a a a a', 'script': '<script>wut("lol")</script>' }
