@@ -4,7 +4,7 @@
   "description": "A stringify template helper for outputting JSON with escaped forward slashes and line terminators",
   "main": "index.js",
   "engines": {
-    "node": "~0.10.x"
+    "node": ">=4.2.2"
   },
   "scripts": {
     "test": "tape test/test.js"
