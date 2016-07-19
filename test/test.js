@@ -19,6 +19,6 @@ test('saferstringify escapes forward slash and quotes', function(t){
 
 test('saferstringify escapes u2028 + u2029', function(t){
 	var obj = fs.readFileSync('./test/fixture.txt', 'utf8');
-	t.deepEqual(saferstringify(obj, null, 2), "\"{'github': 'http:\\/\\/www.github.com\\/mapbox\\/saferstringify', 'escape': 'amanaplan\\u2028a\\u2029canalpanama', 'script': '<script>wut(\\\"lol\\\")<\\/script>' }\"");
+	t.deepEqual(saferstringify(obj, null, 2), "\"{'github': 'http:\\/\\/www.github.com\\/mapbox\\/saferstringify', 'escape': 'a\\u2028a\\u2029a\\u2028a\\u2029a', 'script': '<script>wut(\\\"lol\\\")<\\/script>' }\"");
 	t.end();
 });
