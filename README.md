@@ -4,7 +4,7 @@ Like JSON.stringify, but escapes forward slashes and line terminators.
 
 [![Build Status](https://travis-ci.org/mapbox/safer-stringify.svg?branch=master)](https://travis-ci.org/mapbox/safer-stringify)
 
-[![NPM](https://nodei.co/npm/safer-stringify.png)](https://nodei.co/npm/safer-stringify/)
+[![NPM](https://nodei.co/npm/@mapbox/safer-stringify.png)](https://nodei.co/npm/@mapbox/safer-stringify/)
 
 ##Usage
 Same arguments as [`JSON.stringify`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/stringify): 
@@ -12,7 +12,7 @@ Same arguments as [`JSON.stringify`](https://developer.mozilla.org/en-US/docs/We
 `saferstringify(obj, replacer, spaces)`
 
 ```javascript
-var saferstringify = require('safer-stringify');
+var saferstringify = require('@mapbox/safer-stringify');
 
 var obj = {};
 obj.github = 'http://www.github.com/mapbox/saferstringify';

@@ -1,5 +1,5 @@
 {
-  "name": "safer-stringify",
+  "name": "@mapbox/safer-stringify",
   "version": "0.0.2",
   "description": "A stringify template helper for outputting JSON with escaped forward slashes and line terminators",
   "main": "index.js",
@@ -10,7 +10,7 @@
     "test": "tape test/test.js"
   },
   "author": {
-    "name": "MapBox",
+    "name": "Mapbox",
     "url": "http://mapbox.com/",
     "email": "info@mapbox.com"
   },
@@ -21,6 +21,6 @@
   "dependencies": {
   },
   "devDependencies":{
-    "tape": "2.13.x"
+    "tape": "4.6.x"
   }
 }
